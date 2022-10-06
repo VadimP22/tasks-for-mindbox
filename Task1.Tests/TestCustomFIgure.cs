@@ -1,6 +1,4 @@
-using System.Reflection.Metadata.Ecma335;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel;
-using Xunit.Abstractions;
+using Task1.Lib.DefaultFigures;
 
 public class TestCustomFigure
 {

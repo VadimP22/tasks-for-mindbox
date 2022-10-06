@@ -26,7 +26,7 @@ public class TestDefaultFigures
         var triangle = new Triangle(edgeA, edgeB, edgeC);
         Assert.Equal(expectedSquare, triangle.CalculateSquare());
     }
-    
+
 
     [Fact]
     public void TestImpossibleTriangle()
@@ -35,7 +35,7 @@ public class TestDefaultFigures
         {
             var triangle = new Triangle(1, 2, 3);
         }
-        catch (FigureNotPossibleException e)
+        catch (FigureNotPossibleException)
         {
             Assert.True(true);
             return;
